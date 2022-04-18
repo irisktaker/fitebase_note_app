@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'FB Note',
       home: HomeScreen(),
     );
@@ -28,4 +28,6 @@ class MyApp extends StatelessWidget {
 ///   + flutter pub add google_fonts
 /// - Initialize Flutter app
 /// - Adding style for the app
-/// - Time to creating database
+/// - Time to creating database: https://console.firebase.google.com/u/0/project/flutterfireproject-ed1ed/firestore/data/~2FNotes~2Fo3DSHE3iJAaY5wYaCeG4
+/// - Change our security rules in firestore to display data: https://console.firebase.google.com/u/0/project/flutterfireproject-ed1ed/firestore/rules 
+/// 
